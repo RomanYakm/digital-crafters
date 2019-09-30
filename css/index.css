@@ -1,0 +1,85 @@
+.site-logo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #ffffff;
+}
+.site-menu > li > a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+}
+#content > h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #8b8c8c;
+}
+#content > h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 76px;
+    color: #ffffff;
+}
+#content > p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    color: #ffffff;
+}
+#help-you {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #22d274;
+}
+#testimonials > h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-size: 42px;
+    color: #000000;
+}
+.about-us {
+    font-family: 'Poppins', sans-serif;
+    font-style: lighter;
+    font-size: 17px;
+    color: #171818;
+}
+#services > h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    color: #ffffff;
+}
+#services-info {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+}
+#services > div > h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #171818;
+}
+#services > div > p {
+    font-family: 'Poppins', sans-serif;
+    font-style: lighter;
+    font-size: 17px;
+    color: #171818;
+}
+#portfolio > h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    color: #171818;
+}
+#portfolio-info {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #171818;
+}
+#contact > h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    color: #ffffff;
+}
