@@ -4,25 +4,35 @@
     font-size: 22px;
     color: #ffffff;
 }
+.site-menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: space-between;
+}
 .site-menu > li > a {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 14px;
     color: #ffffff;
 }
-#content > h3 {
+header {
+    background: url(../img/base.png);
+}
+
+header > h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 24px;
     color: #8b8c8c;
 }
-#content > h1 {
+header > h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 76px;
     color: #ffffff;
 }
-#content > p {
+header.content {
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
     font-size: 24px;
