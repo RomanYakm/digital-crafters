@@ -41,7 +41,6 @@
 }
 .about-us {
     font-family: 'Poppins', sans-serif;
-    font-style: lighter;
     font-size: 17px;
     color: #171818;
 }
@@ -63,7 +62,6 @@
 }
 #services > div > p {
     font-family: 'Poppins', sans-serif;
-    font-style: lighter;
     font-size: 17px;
     color: #171818;
 }
