@@ -11,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -57,11 +57,11 @@ body {
 }
 nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .site-logo {
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: flex-start;
     font-family: 'Oswald', sans-serif;
@@ -98,7 +98,8 @@ nav {
     list-style-type: none;
     padding-top: 20px;
     padding-left: 10px;
-    
+    flex: 1;
+
 }
 .site-menu > li > a {
     font-family: 'Poppins', sans-serif;
@@ -405,7 +406,6 @@ header {
 #footer-items {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding-top: 180px;
     padding-bottom: 55px;
     padding-left: 20px;
@@ -421,4 +421,8 @@ header {
 }
 #footer-menu > ul {
     padding-left: 0px;
+}
+#social {
+    display: flex;
+    flex: 1;
 }
