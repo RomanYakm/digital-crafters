@@ -153,7 +153,7 @@ header {
     color: #000000;
     text-align: center;
     padding-bottom: 50px;
-    width: 640px;
+    max-width: 640px;
     margin: 0 auto;
 }
 #testimonials {
@@ -177,13 +177,14 @@ header {
 }
 .about-us {
     margin: 0 auto;
-    width: 650px;
+    max-width: 650px;
 }
 
 #macbook-iphone-box {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 #iphone {
     position: relative;
@@ -210,13 +211,13 @@ header {
     font-size: 17px;
     color: #ffffff;
     text-align: center;
-    width: 640px;
+    max-width: 640px;
     margin: 0 auto;
     margin-bottom: 45px;
 }
 .services-container {
     background-color: white;
-    width: 330px;
+    max-width: 330px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 65px;
@@ -225,7 +226,7 @@ header {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     color: #171818;
-    width: 170px;
+    max-width: 170px;
     margin-left: 40px;
     padding-bottom: 40px;
 }
@@ -234,7 +235,7 @@ header {
     font-size: 17px;
     color: #171818;
     margin-left: 40px;
-    width: 270px;
+    max-width: 270px;
     padding-bottom: 50px;
 }
 .container-list {
@@ -287,8 +288,9 @@ header {
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     color: #171818;
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
+    text-align: center;
 }
 #portfolio {
     background-color: white;
@@ -307,8 +309,9 @@ header {
     color: #ffffff;
     padding-top: 100px;
     padding-bottom: 35px;
-    width: 640px;
+    max-width: 640px;
     margin: 0 auto;
+    text-align: center;
 }
 #contact > hr {
     width: 70px;
@@ -425,8 +428,71 @@ header {
         width: 300px;
         margin: 15px auto;
     }
-    #testimonials h2 {
+    .claim-your-consultation > button {
+        font-size: 16px;
+    }
+    #testimonials > h2 {
         font-size: 24px;
+    }
+    .about-us {
+        font-size: 14px;
+        margin: 0 15px;
+    }
+    #services h2 {
+        font-size: 24px;
+    }
+    #services-info {
+        font-size: 14px;
+    }
+    .container-list {
+        grid-template-columns: 1fr;
+    }
+    .services-container {
+        max-width: 250px;
+    }
+    .services-container > h3 {
         text-align: center;
+        font-size: 18px;
+    }
+    #services-info {
+        font-size: 14px;
+        text-align: center;
+    }
+    .container-img {
+        left: 70px;
+    }
+    #portfolio h2 {
+        font-size: 24px;
+    }
+    #portfolio-info {
+        font-size: 14px;
+        margin: 0 15px;
+    }
+    #contact h2 {
+        font-size: 24px;
+        margin: 0 15px;
+    }
+    .input-with-icon [type=email],[type=text] {
+        max-width: 220px;
+    }
+    .how-we-can-help-you {
+        max-width: 220px;
+    }
+    .submit-claim {
+        max-width: 300px;
+        margin: 0 15px;
+        font-size: 16px;
+    }
+    #footer-items  {
+        flex-wrap: wrap;
+    }
+    .site-logo {
+        font-size: 16px;
+    }
+    #social {
+        flex: none;
+    }
+    #social a {
+        padding-right: 15px;
     }
 }
