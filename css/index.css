@@ -11,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -52,7 +52,7 @@ table {
 }
 
 body {
-    max-width: 1920px;
+    max-width: 1250px;
     margin: auto;
 }
 nav {
@@ -63,7 +63,6 @@ nav {
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: flex-start;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 22px;
@@ -94,12 +93,10 @@ nav {
 }
 .site-menu {
     display: flex;
-    justify-content: flex-start;
     list-style-type: none;
+    flex: 1;
     padding-top: 20px;
     padding-left: 10px;
-    flex: 1;
-
 }
 .site-menu > li > a {
     font-family: 'Poppins', sans-serif;
@@ -109,11 +106,14 @@ nav {
     text-decoration: none;
     margin-right: 5px;
 }
+.site-menu > li > a:hover {
+    color: #12cf6a;
+    
+}
 header {
-    background: url(../img/base.png);
+    background-color: #171818;
     padding-bottom: 210px;
 }
-
 .banner > h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -129,7 +129,7 @@ header {
     color: #ffffff;
     text-align: center;
     padding-top: 35px;
-    width: 1050px;
+    max-width: 1050px;
     margin: 0 auto;
 }
 .content {
@@ -139,7 +139,7 @@ header {
     color: #ffffff;
     padding-top: 40px;
     text-align: center;
-    width: 910px;
+    max-width: 910px;
     margin: 0 auto;
 }
 .claim-your-consultation {
@@ -163,6 +163,23 @@ header {
     text-transform: uppercase;
 }
 .claim-your-consultation > button:hover {
+    border: none;
+}
+.submit-claim {
+    background-color: #12cf6a;
+    width: 520px;
+    height: 105px;
+    border-radius: 30px;
+    border: 10px solid #414242;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    transition-property: border;
+    transition-duration: 0.5s;
+    text-transform: uppercase;
+}
+.submit-claim:hover {
     border: none;
 }
 #help-you {
@@ -246,7 +263,6 @@ header {
     height: auto;
     border-radius: 10px;
     margin-bottom: 65px;
-    margin-left: 25px;
 }
 .services-container > h3 {
     font-family: 'Poppins', sans-serif;
@@ -267,6 +283,7 @@ header {
 .container-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     padding-top: 45px;
     padding-bottom: 150px;
 }
@@ -406,6 +423,7 @@ header {
 #footer-items {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-top: 180px;
     padding-bottom: 55px;
     padding-left: 20px;
@@ -416,6 +434,9 @@ header {
     text-decoration: none;
     color: white;
 }
+#social > a:hover {
+    color: #12cf6a;
+}
 #social > a:last-child {
     padding-right: 0px;
 }
@@ -423,6 +444,8 @@ header {
     padding-left: 0px;
 }
 #social {
-    display: flex;
+    flex: 1;
+}
+#footer-menu > li {
     flex: 1;
 }
