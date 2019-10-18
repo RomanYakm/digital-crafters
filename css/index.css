@@ -217,7 +217,7 @@ header {
 }
 .services-container {
     background-color: white;
-    max-width: 330px;
+    max-width: 300px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 65px;
@@ -235,6 +235,7 @@ header {
     font-size: 17px;
     color: #171818;
     margin-left: 40px;
+    margin-right: 20px;
     max-width: 270px;
     padding-bottom: 50px;
 }
@@ -332,7 +333,7 @@ header {
 .input-style-name {
     background: url(../img/icon_profile.png) no-repeat;
     background-position: 20px 20px;
-    width: 620px;
+        width: 620px;
     height: 60px;
     border: 1px solid #515252;
     border-radius: 5px;
@@ -402,6 +403,7 @@ header {
 }
 #footer-menu > ul {
     padding-left: 0px;
+    padding-top: 0px;
 }
 #social {
     flex: 1;
@@ -494,5 +496,80 @@ header {
     }
     #social a {
         padding-right: 15px;
+    }
+    #footer-menu ul {
+        padding-right: 0px;
+        padding-left: none;
+    }
+    #iphone {
+        right: 300px;
+        top: -15px;
+    }
+    #macbook {
+        position: relative;
+        right: 105px;
+    }
+}
+
+@media (min-width:481px) and (max-width:990px) { 
+    .input-style-name,
+    .input-style-email,
+    .how-we-can-help-you {
+        max-width: 250px;
+    }
+}
+
+@media (min-width:320px) and (max-width:660px) {
+    .container-list {
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:660px) and (max-width:992px) {
+    .container-list {
+        grid-template-columns: 1fr 1fr;
+    }
+    .services-container {
+        max-width: 250px;
+    }
+}
+@media (min-width: 320px) and (max-width:660px) {
+    .claim-your-consultation {
+        width: 300px;
+        margin: 15px auto;
+    }
+    .claim-your-consultation > button {
+        font-size: 16px;
+    }
+    .submit-claim {
+        max-width: 300px;
+        margin: 0 15px;
+        font-size: 16px;
+    }
+    #iphone {
+        right: 300px;
+        top: -15px;
+    }
+    #macbook {
+        position: relative;
+        right: 105px;
+    }
+}
+@media (min-width: 320px) and (max-width:731px) {
+    #footer-items  {
+        flex-wrap: wrap;
+    }
+    .site-logo {
+        font-size: 14px;
+        padding-right: 15px;
+    }
+    #social {
+        flex: none;
+    }
+    #social {
+        padding-right: 15px;
+    }
+    #footer-menu ul {
+        padding-right: 0px;
+        padding-left: none;
     }
 }
