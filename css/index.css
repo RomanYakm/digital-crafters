@@ -16,6 +16,9 @@ nav {
     display: flex;
     align-items: center;
 }
+#navbarNav {
+    flex: 1;
+}
 .site-logo {
     display: flex;
     flex: 1;
@@ -56,6 +59,14 @@ nav {
     padding-left: 10px;
 }
 .site-menu > li > a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.navbar-nav li a {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 14px;
@@ -571,5 +582,24 @@ header {
     #footer-menu ul {
         padding-right: 0px;
         padding-left: none;
+    }
+}
+@media (min-width: 320px) and (max-width:740px) {
+    nav {
+        flex-direction: column;
+    }
+    nav .site-logo {
+        padding-bottom: 5px;
+    }
+    nav ul {
+        padding-bottom: 5px;
+    }
+    .banner h3 {
+        padding-top: 80px;
+    }
+}
+@media (min-width: 320px) and (max-width:400px) {
+    nav .site-menu > li > a {
+        font-size: 10px;
     }
 }
