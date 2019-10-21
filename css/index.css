@@ -510,7 +510,6 @@ header {
     }
     #footer-menu ul {
         padding-right: 0px;
-        padding-left: none;
     }
     #iphone {
         right: 300px;
@@ -581,7 +580,6 @@ header {
     }
     #footer-menu ul {
         padding-right: 0px;
-        padding-left: none;
     }
 }
 @media (min-width: 320px) and (max-width:740px) {
